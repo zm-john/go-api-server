@@ -1,0 +1,16 @@
+[app]
+; mode: debug/release
+mode=debug
+
+[mysql]
+host=localhost
+port=3307
+username=root
+password=123456
+database=share
+
+[jwt]
+; token 加密的 Key
+key=sdfsdgdass
+; token 有效时长
+ttl=3600
